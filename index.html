@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0f0f0f" id="themeColor">
+  <meta name="description" content="JMB Tech - Digital Profile of John Mark Burdado">
+  <title>My Digital Profile | John Mark Burdado</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="My Digital Profile | John Mark Burdado">
+  <meta property="og:description" content="Welcome to JMB Tech! If you need any technology-related services, I can help you.">
+  <meta property="og:url" content="https://johnmarkwalkmanburdado-wq.github.io/JMBtechportfolio-JohnmarkBurdado-/">
+  <meta property="og:image" content="https://johnmarkwalkmanburdado-wq.github.io/JMBtechportfolio-JohnmarkBurdado-/images/profile.jpg">
+  <script>
+    try {
+      if (localStorage.getItem("theme") === "light") {
+        document.documentElement.setAttribute("data-theme", "light");
+        document.getElementById("themeColor").setAttribute("content", "#ffffff");
+      }
+    } catch (error) {}
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="logo">JMB Tech</a>
+
+      <div class="header-actions">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Switch to light mode">
+          <span class="icon-sun"><i class="fa-solid fa-sun" aria-hidden="true"></i></span>
+          <span class="icon-moon"><i class="fa-solid fa-moon" aria-hidden="true"></i></span>
+        </button>
+        <details class="menu" id="menu">
+          <summary class="menu-button">
+            <i class="fa-solid fa-bars" aria-hidden="true"></i>
+            <span>Menu</span>
+          </summary>
+          <nav class="menu-panel" aria-label="Main navigation">
+            <ul class="menu-links container">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#hobbies">Hobbies</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#goals">Goals</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </details>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <img src="images/profile.jpg" alt="Profile picture of John Mark Burdado" class="profile-pic" width="440" height="440">
+        <div class="hero-text">
+          <h1>Hi, I'm John Mark Burdado</h1>
+          <p class="hero-role">BS Information Systems student &amp; aspiring IT professional</p>
+          <p>Welcome to JMB Tech! If you need any technology-related services, I can help you.</p>
+          <div class="button-row">
+            <a href="#about" class="btn">Get to Know Me</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-layout">
+          <p>By the way, I am currently studying at Saint Francis College, taking up Bachelor of Science in Information Systems. I also want to explore technology further so that I can expand my knowledge even more.</p>
+          <ul class="info-list">
+            <li><span>Full Name</span><strong>John Mark Burdado</strong></li>
+            <li><span>Course</span><strong>Bachelor of Science in Information Systems</strong></li>
+            <li><span>Year Level</span><strong>2nd Year</strong></li>
+            <li><span>Section</span><strong>BSIS-2A</strong></li>
+            <li><span>School</span><strong>Saint Francis College Guihulngan</strong></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>School</th>
+                <th>Level</th>
+                <th>Year</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Villegas Elementary School</td>
+                <td>Elementary</td>
+                <td>2012</td>
+              </tr>
+              <tr>
+                <td>Guihulngan National High School</td>
+                <td>High School</td>
+                <td>2016</td>
+              </tr>
+              <tr>
+                <td>Buenavista National High School - Extension</td>
+                <td>Senior High School</td>
+                <td>2018</td>
+              </tr>
+              <tr>
+                <td>Saint Francis College Guihulngan</td>
+                <td>College &mdash; BS Information Systems</td>
+                <td>Present</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>My Skills</h2>
+        <ul class="skills-grid">
+          <li><i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i><span>Basic Mobile Phone Repair</span></li>
+          <li><i class="fa-solid fa-video" aria-hidden="true"></i><span>CCTV Installation</span></li>
+          <li><i class="fa-solid fa-code" aria-hidden="true"></i><span>Vibe Coding</span></li>
+          <li><i class="fa-solid fa-network-wired" aria-hidden="true"></i><span>Network Assistance</span></li>
+          <li><i class="fa-solid fa-screwdriver-wrench" aria-hidden="true"></i><span>Basic Computer Troubleshooting</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="hobbies" class="section section-alt">
+      <div class="container">
+        <h2>My Hobbies &amp; Interests</h2>
+        <ul class="skills-grid">
+          <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i><span>Playing Online Games</span></li>
+          <li><i class="fa-solid fa-paintbrush" aria-hidden="true"></i><span>Painting</span></li>
+          <li><i class="fa-solid fa-fish" aria-hidden="true"></i><span>Fish Keeping</span></li>
+          <li><i class="fa-solid fa-music" aria-hidden="true"></i><span>Listening to Music &mdash; Panaginip</span></li>
+          <li><i class="fa-solid fa-circle-play" aria-hidden="true"></i><span>Watching IT &amp; Programming Videos</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2>My Gallery</h2>
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="images/gallery1.jpg" alt="Painting of a road through an orange sunset landscape, displayed under a lamp" width="800" height="600" loading="lazy" style="object-position: center 50%;">
+            <figcaption>Painting in Arts</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery2.jpg" alt="BSIS Set-A classmates sitting in a classroom, wearing green and white shirts" width="800" height="600" loading="lazy" style="object-position: center 50%;">
+            <figcaption>BSIS Set-A</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery3.jpg" alt="Orange and blue sunset sky over palm trees and a mountain in Culasi" width="800" height="1067" loading="lazy" style="object-position: center 70%;">
+            <figcaption>Sunset in Culasi</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery4.jpg" alt="Green river beside a rocky bank with trees at Kasalakan River" width="800" height="1067" loading="lazy" style="object-position: center 55%;">
+            <figcaption>Kasalakan River</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="images/gallery5.jpg" alt="Person in a bucket hat raising both arms in front of Mantuhod Lake and a green hill" width="800" height="1158" loading="lazy" style="object-position: center 85%;">
+            <figcaption>Mantuhod Lake</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="goals" class="section section-alt">
+      <div class="container">
+        <h2>My Goals</h2>
+        <div class="goals-grid">
+          <div class="goal-box">
+            <h3>Short-Term Goals</h3>
+            <ul>
+              <li>Improve my coding skills.</li>
+              <li>Pass all my subjects.</li>
+              <li>Graduate from college.</li>
+            </ul>
+          </div>
+          <div class="goal-box">
+            <h3>Long-Term Goals</h3>
+            <ul>
+              <li>Get a stable job in the future.</li>
+              <li>Build my own technology business.</li>
+              <li>Become an IT professional.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="links" class="section">
+      <div class="container">
+        <h2>Useful Websites for IT Students</h2>
+        <ul class="link-list">
+          <li><a href="https://www.youtube.com/@freecodecamp" target="_blank" rel="noopener noreferrer">YouTube &mdash; freeCodeCamp</a></li>
+          <li><a href="https://www.w3schools.com" target="_blank" rel="noopener noreferrer">W3Schools</a></li>
+          <li><a href="https://johnmarkwalkmanburdado-wq.github.io/JMBtech-BurdadoJohnmark-Portfolio/" target="_blank" rel="noopener noreferrer">My Other Portfolio</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container contact-container">
+        <h2>Contact Me</h2>
+
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="Example: jmbtech@gmail.com" autocomplete="email" required>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <input type="text" name="_honey" class="hidden-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <button type="submit" class="btn" id="sendBtn">Send Message</button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+        <ul class="social-links">
+          <li><a href="tel:+639940725938" aria-label="Call me"><i class="fa-solid fa-phone" aria-hidden="true"></i></a></li>
+          <li><a href="mailto:jmbtech1.0@gmail.com" aria-label="Send me an email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/jmbtech" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/share/1MARquRv66/" target="_blank" rel="noopener noreferrer" aria-label="Facebook profile"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.tiktok.com/@jmbtech" target="_blank" rel="noopener noreferrer" aria-label="TikTok profile"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
